@@ -15,5 +15,4 @@
 
 
 # 마켓 등록 정보
-https://play.google.com/apps/publish/?account=4815469360267276192#AppDashboardPlace:p=com.CarrieDo.swipememoapplication&appid=4973882745265458637
-
+https://play.google.com/store/apps/details?id=com.CarrieDo.swipememoapplication
