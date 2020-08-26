@@ -1,7 +1,7 @@
 # SwipeMemoApplication
 안드로이드 내부 DB와, awesome ui, lottie를 활용한 메모장 앱
 
-# 실습해 본 목록
+# 구현 내용
 - 안드로이드 내부 데이터 베이스
 - 로티 애니메이션
 - 안드로이드 자체 애니메이션
