@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.CarrieDo.swipememoapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9985773287738144~9910556216"/>
+
+        <activity android:name="com.CarrieDo.swipememoapplication.FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.CarrieDo.swipememoapplication.EditActivity" />
+        <activity android:name="com.CarrieDo.swipememoapplication.DetailActivity" />
+        <activity android:name="com.CarrieDo.swipememoapplication.MainActivity">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorPrimary"
+    tools:context=".DetailActivity">
+
+    <EditText
+        android:id="@+id/detail_et_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="제목"
+        android:backgroundTint="@color/colorText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/detail_et_contents"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="내용"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detail_et_title"
+        app:layout_constraintBottom_toTopOf="@id/detail_ib_save"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageButton
+        android:id="@+id/detail_ib_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:tint="@color/colorText"
+        android:layout_marginBottom="12dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        tools:ignore="ContentDescription,RtlHardcoded,VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/detail_ib_save"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/colorPrimaryDark"
+        android:tint="@color/colorText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/ic_check_circle_black_24dp"
+        tools:ignore="ContentDescription,RtlHardcoded,VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/detail_ib_cancel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:tint="@color/colorText"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/ic_cancel_black_24dp"
+        tools:ignore="ContentDescription,RtlHardcoded,VectorDrawableCompat" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
